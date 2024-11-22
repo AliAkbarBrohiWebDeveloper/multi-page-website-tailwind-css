@@ -48,7 +48,7 @@ const Special = () => {
 <div className=' text-center px-20 mr-28 mt-28'>
 
 <h3 className='font-bold text-2xl '>Today special offers</h3>
-<p className='text-lg mt-3 text-center'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+<p className='text-lg mt-3 text-center'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
 
 
 </div>
