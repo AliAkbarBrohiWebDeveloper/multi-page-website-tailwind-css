@@ -7,7 +7,7 @@ const Images=[{
   img2:"/G1.png",
   header1:"Kebab",
   header2:"⭐ (4.5)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 },{
 
@@ -15,7 +15,7 @@ const Images=[{
   img2:"/G3.png",
   header1:"Kebab",
   header2:"⭐ (4.8)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 },{
 
@@ -23,7 +23,7 @@ const Images=[{
   img2:"/G2.png",
   header1:"Kebab",
   header2:"⭐ (4.6)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem  of the printing and typesetting industryOrder Now",
 
 
 },{
@@ -32,7 +32,7 @@ const Images=[{
   img2:"/G1.png",
   header1:"Kebab",
   header2:"⭐ (4.2)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem  of the printing and typesetting industryOrder Now",
 
 }
 ]
@@ -41,7 +41,7 @@ const Images2=[{
   img2:"/G1.png",
   header1:"Kebab",
   header2:"⭐ (4.5)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 },{
 
@@ -49,7 +49,7 @@ const Images2=[{
   img2:"/G3.png",
   header1:"Kebab",
   header2:"⭐ (4.8)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 },{
 
@@ -57,7 +57,7 @@ const Images2=[{
   img2:"/G2.png",
   header1:"Kebab",
   header2:"⭐ (4.6)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 
 },{
@@ -66,7 +66,7 @@ const Images2=[{
   img2:"/G1.png",
   header1:"Kebab",
   header2:"⭐ (4.2)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 }
 ]
@@ -119,7 +119,7 @@ const Menu = () => {
 Images.map((brand,i)=>(
 
 
-<div key={i} data-aos="zoom-in">
+<div key={i} data-aos="zoom-in" className='bg-gray-200'>
 <Image src={brand.src} alt='kebab' height={1000} width={1000}   className='border-t-[15px] w-[200px] border-orange-300 rounded-full '/>
 <div className='flex items-center mt-5 gap-5'>
 
@@ -128,9 +128,9 @@ Images.map((brand,i)=>(
 
 </div>
 
-<h4 className='text-red-500 font-medium text-xl mt-6'>{brand.header1}</h4>
-<p className='mt-4'>{brand.paragraph}</p>
-<div className='mt-4'>
+<h4 className='text-red-500 font-medium text-xl mt-6 text-center'>{brand.header1}</h4>
+<p className='mt-4 text-center'>{brand.paragraph}</p>
+<div className='mt-4 text-center'>
 <Button text='Order Now'/>
 </div>
 </div>
@@ -139,11 +139,11 @@ Images.map((brand,i)=>(
 
 }
 </div>
-<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center '>
+<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center'>
 
 {
   Images2.map((brands,index)=>(
-<div key={index}  data-aos="zoom-in">
+<div key={index}  data-aos="zoom-in" className='bg-gray-200'>
 <Image src={brands.src} alt='kabab' height={100} width={100} className='border-t-[15px] border-orange-300 rounded-full w-[200px] '/>
 
 <div className='flex items-center mt-5 gap-4'>
@@ -153,9 +153,9 @@ Images.map((brand,i)=>(
 
 </div>
 
-<h4 className='text-red-500 font-medium text-xl mt-6'>{brands.header1}</h4>
-<p className='mt-4'>{brands.paragraph}</p>
-<div className='mt-4'>
+<h4 className='text-red-500 font-medium text-xl mt-6 text-center'>{brands.header1}</h4>
+<p className='mt-4 text-center'>{brands.paragraph}</p>
+<div className='mt-4 text-center'>
 <Button text='Order Now'/>
 </div>
 </div>

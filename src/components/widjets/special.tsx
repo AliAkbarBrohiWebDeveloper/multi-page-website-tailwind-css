@@ -7,7 +7,7 @@ const Images=[{
   img2:"/G1.png",
   header1:"Kebab",
   header2:"⭐ (4.5)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 },{
 
@@ -15,7 +15,7 @@ const Images=[{
   img2:"/G3.png",
   header1:"Chicken Tikka ",
   header2:"⭐ (4.8)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 },{
 
@@ -23,7 +23,7 @@ const Images=[{
   img2:"/G2.png",
   header1:"Desi Chowmein",
   header2:"⭐ (4.6)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem of the printing and typesetting industryOrder Now",
 
 
 },{
@@ -32,7 +32,7 @@ const Images=[{
   img2:"/G1.png",
   header1:"Chicken Chargha",
   header2:"⭐ (4.2)",
-  paragraph:"15$(4.8)Lorem Ipsum is simply dummy text of the printing and typesetting industryOrder Now",
+  paragraph:"15$(4.8)Lorem  of the printing and typesetting industryOrder Now",
 
 }
 ]
@@ -54,12 +54,12 @@ const Special = () => {
 </div>
 
 
-<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center px-28 '>
+<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center px-28  '>
 {
 Images.map((brands,index)=>(
 
 
-<div key={index} data-aos="zoom-in">
+<div key={index} data-aos="zoom-in" className='bg-red-100'>
 <Image src={brands.src} alt='kebab' height={100} width={100}  className='w-[200px]'/>
 <div className='flex items-center mt-5 gap-5'>
 
