@@ -83,12 +83,12 @@ const Menu = () => {
 <div className='flex justify-center items-center  px-[200px]  '>
     <div >
 
-<h5 className='underline font-bold text-2xl '>Our Menu</h5>
+<h5 className='underline font-bold text-2xl mx-6 '>Our Menu</h5>
 
 
-<h4 className='font-bold text-2xl whitespace-pre-line mt-6'>{menu}</h4>
+<h4 className='font-bold text-2xl whitespace-pre-line mt-6 mx-9'>{menu}</h4>
 
-<div className='flex gap-5'>
+<div className='flex gap-5 mx-9'>
 <div className='hidden sm:block'>
 <Button2 text='Ramen'/>
 </div>
@@ -113,17 +113,17 @@ const Menu = () => {
 
 </div>
 
-<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center'>
+<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center mx-6'>
 
 {
 Images.map((brand,i)=>(
 
 
-<div key={i} data-aos="zoom-in" className='bg-gray-200'>
-<Image src={brand.src} alt='kebab' height={1000} width={1000}   className='border-t-[15px] w-[200px] border-orange-300 rounded-full '/>
+<div key={i} data-aos="zoom-in" className='bg-gray-300 rounded-lg w-[340px] h-[460px] '>
+<Image src={brand.src} alt='kebab' height={1000} width={1000}   className='border-t-[15px] w-[200px] border-orange-300 rounded-full mx-20 mt-3'/>
 <div className='flex items-center mt-5 gap-5'>
 
-<Image src={brand.img2} alt='Group1' height={50} width={50}/>
+<Image src={brand.img2} alt='Group1' height={50} width={50} className='mx-20'/>
 <h1>{brand.header2}</h1>
 
 </div>
@@ -139,16 +139,16 @@ Images.map((brand,i)=>(
 
 }
 </div>
-<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center'>
+<div className='my-20  mx-6 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center '>
 
 {
   Images2.map((brands,index)=>(
-<div key={index}  data-aos="zoom-in" className='bg-gray-200'>
-<Image src={brands.src} alt='kabab' height={100} width={100} className='border-t-[15px] border-orange-300 rounded-full w-[200px] '/>
+<div key={index}  data-aos="zoom-in" className='bg-gray-300 w-[340px] h-[460px] rounded-lg'>
+<Image src={brands.src} alt='kabab' height={100} width={100} className='border-t-[15px] border-orange-300 rounded-full w-[200px] mx-20 mt-3'/>
 
 <div className='flex items-center mt-5 gap-4'>
 
-<Image src={brands.img2} height={50} width={50} alt='Group1'/>
+<Image src={brands.img2} height={50} width={50} alt='Group1' className='mx-20'/>
 <h1>{brands.header2}</h1>
 
 </div>
