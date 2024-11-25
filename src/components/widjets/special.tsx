@@ -38,7 +38,11 @@ const Images=[{
 ]
 
 const Special = () => {
+
+  const paragraph="Lorem Ipsum is simply dummy \n text of the printing and typesetting industry\n. Lorem Ipsum has been the industrys standard \ndummy text ever since the 1500s"
   return (
+
+    
     <>
     <section className='mt-16 md:mt-28'>
 
@@ -48,13 +52,13 @@ const Special = () => {
 <div className=' text-center px-20 mr-28 mt-28'>
 
 <h3 className='font-bold text-2xl '>Today special offers</h3>
-<p className='text-lg mt-3 text-center'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
+<p className='text-lg mt-3 text-center whitespace-pre-line'> {paragraph}</p>
 
 
 </div>
 
 
-<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center   '>
+<div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center mx-auto  '>
 {
 Images.map((brands,index)=>(
 

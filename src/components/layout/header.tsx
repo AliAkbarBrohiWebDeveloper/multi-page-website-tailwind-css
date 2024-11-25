@@ -28,7 +28,7 @@ const Header = () => {
 
 
     <ul>
-<li className='space-x-5 items-center font-medium hidden md:block text-1xl  text-white'>
+<li className='space-x-5 items-center font-medium hidden md:block   text-white'>
       <Link href="/">Today special offers</Link>
       
       
