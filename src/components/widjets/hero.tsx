@@ -39,7 +39,7 @@ const Hero = () => {
 </div>
 </div>
 <div>
-<Image src={heroPoster} alt='hero-poster' className='border-b-[20px] border-orange-300 rounded-full bg-red-400'/>
+<Image src={heroPoster} alt='hero-poster' className='border-b-[20px] border-orange-300 rounded-full bg-red-400 mt-10 md:mt-auto'/>
 </div>
 
 

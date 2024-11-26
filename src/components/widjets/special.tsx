@@ -39,7 +39,7 @@ const Images=[{
 
 const Special = () => {
 
-  const paragraph="Lorem Ipsum is simply dummy \n text of the printing and typesetting industry\n. Lorem Ipsum has been the industrys standard \ndummy text ever since the 1500s"
+
   return (
 
     
@@ -49,22 +49,20 @@ const Special = () => {
 <Wrapper>
 
 
-<div className=' text-center px-20 mr-28 mt-28'>
+<div className=' text-center px-20 mr-28 mt-28 '>
 
-<h3 className='font-bold text-2xl '>Today special offers</h3>
-<p className='text-lg mt-3 text-center whitespace-pre-line'> {paragraph}</p>
+<h3 className='font-bold text-2xl mx-20 '>Today Special Offers</h3>
 
 
 </div>
-
 
 <div className='my-20 flex gap-x-8 gap-y-6 flex-col md:flex-row justify-center items-center mx-auto  '>
 {
 Images.map((brands,index)=>(
 
 
-<div key={index} data-aos="zoom-in" className='bg-red-100 rounded-lg w-[340px] h-[470px] '>
-<Image src={brands.src} alt='kebab' height={100} width={100}  className='w-[200px] mx-16 md:mx-10 mt-3'/>
+<div key={index} data-aos="zoom-in" className='border-2 rounded-lg w-[340px] h-[470px] '>
+<Image src={brands.src} alt='kebab' height={100} width={100}  className='w-[200px] mx-16 md:mx-10 mt-3 hover:scale-105 duration-300'/>
 <div className='flex items-center mt-5 gap-4 '>
 
 <Image src={brands.img2} alt='Group1' height={50} width={50} className='mx-16 md:mx-10'/>
@@ -74,7 +72,7 @@ Images.map((brands,index)=>(
 
 <h4 className='text-red-500 font-medium text-xl mt-6 text-center'>{brands.header1}</h4>
 <p className='mt-4  text-center'>{brands.paragraph}</p>
-<div className='mt-4 text-center'>
+<div className='mt-4 text-center '>
   <div className='text-center'>
 <Button text='Order Now '/>
 </div>

@@ -38,7 +38,7 @@ const Header = () => {
       <Link href="/Menu">Our Menu</Link>
     
 
-<Link href="/popular ">Our Popular food</Link>
+<Link href="/contact ">Contact</Link>
 
         </li>
     </ul>
@@ -60,7 +60,7 @@ const Header = () => {
       <Link href="/Menu">Our Menu</Link>
     
 
-<Link href="/popular ">Our Popular food</Link>
+<Link href="/contact ">Contact</Link>
 
         </li>
     </ul>

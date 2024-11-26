@@ -119,12 +119,12 @@ const Menu = () => {
 Images.map((brand,i)=>(
 
 
-<div key={i} data-aos="zoom-in" className='bg-gray-300 rounded-lg w-[280px] h-[460px] '>
-<Image src={brand.src} alt='kebab' height={1000} width={1000}   className='border-t-[15px] w-[200px] border-orange-300 rounded-full mx-10 mt-3'/>
+<div key={i} data-aos="zoom-in" className=' border-2 rounded-lg w-[290px] h-[460px] '>
+<Image src={brand.src} alt='kebab' height={1000} width={1000}   className='border-t-[15px] w-[200px] border-orange-300 rounded-full mx-10 mt-3 hover:scale-105 duration-300'/>
 <div className='flex items-center mt-5 gap-5'>
 
 <Image src={brand.img2} alt='Group1' height={50} width={50} className='mx-10'/>
-<h1>{brand.header2}</h1>
+<h2>{brand.header2}</h2>
 
 </div>
 
@@ -139,12 +139,12 @@ Images.map((brand,i)=>(
 
 }
 </div>
-<div className='my-20  flex gap-x-4 gap-y-6 flex-col md:flex-row justify-center items-center mx-auto '>
+<div className='my-20  flex gap-x-5 gap-y-6 flex-col md:flex-row justify-center items-center mx-auto '>
 
 {
   Images2.map((brands,index)=>(
-<div key={index}  data-aos="zoom-in" className='bg-gray-300 w-[280px] h-[460px] rounded-lg'>
-<Image src={brands.src} alt='kabab' height={100} width={100} className='border-t-[15px] border-orange-300 rounded-full w-[200px] mx-10 mt-3'/>
+<div key={index}  data-aos="zoom-in" className=' border-2 w-[280px] h-[460px] rounded-lg'>
+<Image src={brands.src} alt='kabab' height={100} width={100} className='border-t-[15px] border-orange-300 rounded-full w-[200px] mx-10 mt-3 hover:scale-105 duration-300'/>
 
 <div className='flex items-center mt-5 gap-4'>
 
@@ -154,8 +154,8 @@ Images.map((brand,i)=>(
 </div>
 
 <h4 className='text-red-500 font-medium text-xl mt-6 text-center'>{brands.header1}</h4>
-<p className='mt-4 text-center'>{brands.paragraph}</p>
-<div className='mt-4 text-center'>
+<p className='mt-4 text-center '>{brands.paragraph}</p>
+<div className='mt-4 text-center '>
 <Button text='Order Now'/>
 </div>
 </div>
