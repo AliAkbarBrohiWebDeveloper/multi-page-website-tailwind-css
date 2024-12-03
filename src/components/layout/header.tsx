@@ -50,7 +50,7 @@ const Header = () => {
       <SheetDescription>
        
     <ul>
-<li className='flex flex-col gap-y-6'>
+<li className='flex flex-col gap-y-6 text-xl font-bold'>
       <Link href="/">Today special offers</Link>
       
       
